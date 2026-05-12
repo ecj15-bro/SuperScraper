@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Source projects (not part of SuperScraper)
+VAR-Hunter2.0/
+cloudbox-revenue-engine-main.zip
+
+# Build artifacts
+dist/
+build/
+
+# Drizzle
+drizzle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
